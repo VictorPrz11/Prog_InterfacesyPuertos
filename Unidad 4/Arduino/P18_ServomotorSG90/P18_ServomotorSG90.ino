@@ -1,18 +1,20 @@
-int relevador = 13;
+#include "Servo.h"   
 
-void setup() {
-  // put your setup code here, to run once:
-  pinMode(relevador, OUTPUT);
+int pinServo = 9;
+Servo servo; 
+
+void setup(){ 
   Serial.begin(9600);
-  Serial.setTimeout(10);
+  servo.attach(pinServo);
 }
+ 
+void loop(){
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  if(Serial.available()>0){
-    int v = Serial.readString().toInt();
-    digitalWrite(relevador, v);
-    Serial.printl("Estado Aplicado: " + String(v));
-  }
-  delay(100);
+  servo.write(0);
+  Serial.println("Servo en 0°");
+  delay(500); 
+    
+  servo.write(180);
+  Serial.println("Servo en 180°");
+  delay(500); 
 }

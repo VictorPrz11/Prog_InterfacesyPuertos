@@ -10,6 +10,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Serial.println("Hola!");
+  Serial.println("Hola! :D! :3 🤪");
   delay(1000); //milesecs
 }
