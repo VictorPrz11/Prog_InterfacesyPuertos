@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>logoUat.png</file>
+    <file>equipo.jpeg</file>
+    <file>FI_LOGO.png</file>
+  </qresource>
+  <qresource prefix="Team">
+    <file>lex.jpeg</file>
+    <file>nat.jpeg</file>
+    <file>rod.jpeg</file>
+    <file>yo.jpeg</file>
+  </qresource>
+  <qresource prefix="Mascotas">
+    <file>conejo.jpeg</file>
+    <file>cuyo.jpeg</file>
+    <file>hamster.jpeg</file>
+    <file>gato.jpeg</file>
+    <file>perro.jpeg</file>
+  </qresource>
+</RCC>
